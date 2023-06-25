@@ -1,0 +1,42 @@
+Git:
+
+working dir --> staging area --> localrepo    main repo
+Goto the project folder give git init
+each work dir needs local repo	
+
+if the file is in red it is in workinf dir, need to add
+if it is in green - ready to commit
+git init - for a new project this command is used to create a new git repository
+git add - This will add the specified file(s) into the Git repository, the staging area, where they are already being tracked by Git and now ready to be committed.
+
+git commit  -am - to add and commit at the same time
+git add . - This will take all our files into the Git repository, i.e., working dir into the staging area
+git commit - from staging area to local repo - - git commit -m “message”
+git status - This command will show the modified status of an existing file and the file addition status of a new file, if any, that has to be committed.
+git config - The git config command is used initially to configure the user.name and user.email. This specifies what email id and username will be used from a local repository.
+When git config is used with --global flag, it writes the settings to all repositories on the computer 
+git remote -Usage: git remote add origin “[URL]”
+
+Once everything is ready on our local system, we can start pushing our code to the remote (central) repository of the project. For that, follow the below steps:
+git push -Suppose, we have made some changes in the file and want to push the changes to our remote repository on a particular branch. By using the command ‘git push,’ the local repository’s files can be synced with the remote repository on Github.
+git push -u origin master
+git clone - Suppose, we want to work on a file that is on a remote Github repository as another developer. How can we do that? We can work on this file by clicking on Clone or Download and copying the link and pasting it on the terminal with the git clone command. This will import the files of a project from the remote repository to our local system.
+git branch -  check the list of branch status and create new branch with branch name
+git checkout - switching to another branch from one.
+git log - to view the committed log status with commit time and author name
+git stash - 
+git revert - if developer commits 3 commit but they dont want 2 commit alone, we will give revert to delete that changes.
+git diff
+git merge - This command will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches. The git merge command takes two commit pointers, usually the branch tips, and finds a common base commit between them. Once it finds a common base commit, it will create a commit sequence. 
+git rebase
+git fetch - When we use the command git fetch, Git gathers any commit from the target branch that does not exist in our current branch and stores it in our local repository. However, it does not merge it with our current branch.
+git reset -  if developermaking threeo ror more commit we want to go back to particular commit, we will use reset
+git pull - already made changes in remoterepo can be downloaded to local repo
+
+
+https://github.com/johnparker5555
+
+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
+
+
+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
